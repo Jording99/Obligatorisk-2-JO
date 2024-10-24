@@ -29,4 +29,5 @@ const fullName = firstName + ' ' + lastName;
 console.log(fullName, 'er navnet mitt');
 
 const htmlElement = document.querySelector('#javaScriptData');
-htmlElement.textcontent = fullName;
+htmlElement.textcontent = (fullName);
+

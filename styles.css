@@ -69,4 +69,20 @@ main {
 footer {
   display: flex;
   justify-content: center;
+
+
+/* MEDIA QUERY */
+@media (max-width: 426px) {
+  body {
+    background-color: lightyellow;
+  }
+
+  .hero {
+    flex-direction: column;
+  }
+
+  .projectCard {
+    flex-direction: column;
+  }
+}
 }
